@@ -1,0 +1,1718 @@
+{
+  "source": "p4_face_enhancement",
+  "total_faces_processed": 100,
+  "processing_time_sec": 28.64,
+  "pipeline_stages_applied": [
+    "denoise",
+    "clahe",
+    "upscale_multistep",
+    "zone_sharpen"
+  ],
+  "recognition_accuracy_before_pct": 44.0,
+  "recognition_accuracy_after_pct": 83.0,
+  "avg_sharpness_before": 13.69,
+  "avg_sharpness_after": 111.18,
+  "avg_ssim_improvement": 0.6564,
+  "per_face": [
+    {
+      "filename": "face_0001.jpg",
+      "original_size_px": [
+        119,
+        119
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 13.04,
+      "sharpness_after": 108.02,
+      "ssim_improvement": 0.5963,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0002.jpg",
+      "original_size_px": [
+        141,
+        144
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 40.99,
+      "sharpness_after": 393.27,
+      "ssim_improvement": 0.7179,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0003.jpg",
+      "original_size_px": [
+        82,
+        82
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 3.95,
+      "sharpness_after": 25.91,
+      "ssim_improvement": 0.7034,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0004.jpg",
+      "original_size_px": [
+        144,
+        141
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 37.66,
+      "sharpness_after": 289.37,
+      "ssim_improvement": 0.6947,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0005.jpg",
+      "original_size_px": [
+        118,
+        118
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 11.09,
+      "sharpness_after": 108.34,
+      "ssim_improvement": 0.6485,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0006.jpg",
+      "original_size_px": [
+        99,
+        98
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 6.53,
+      "sharpness_after": 38.62,
+      "ssim_improvement": 0.6733,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_0007.jpg",
+      "original_size_px": [
+        82,
+        82
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 2.85,
+      "sharpness_after": 19.51,
+      "ssim_improvement": 0.7323,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_0008.jpg",
+      "original_size_px": [
+        99,
+        98
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 6.28,
+      "sharpness_after": 39.18,
+      "ssim_improvement": 0.726,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "Anamika"
+    },
+    {
+      "filename": "face_0009.jpg",
+      "original_size_px": [
+        118,
+        119
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 7.44,
+      "sharpness_after": 77.32,
+      "ssim_improvement": 0.6183,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0010.jpg",
+      "original_size_px": [
+        119,
+        118
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 7.82,
+      "sharpness_after": 93.14,
+      "ssim_improvement": 0.5737,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0011.jpg",
+      "original_size_px": [
+        99,
+        98
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 7.91,
+      "sharpness_after": 51.25,
+      "ssim_improvement": 0.6736,
+      "match_before": true,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_0012.jpg",
+      "original_size_px": [
+        67,
+        67
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 3.43,
+      "sharpness_after": 18.05,
+      "ssim_improvement": 0.7493,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0013.jpg",
+      "original_size_px": [
+        144,
+        141
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 35.54,
+      "sharpness_after": 254.5,
+      "ssim_improvement": 0.689,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0014.jpg",
+      "original_size_px": [
+        81,
+        82
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 5.69,
+      "sharpness_after": 36.27,
+      "ssim_improvement": 0.6263,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0015.jpg",
+      "original_size_px": [
+        98,
+        98
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 5.46,
+      "sharpness_after": 40.6,
+      "ssim_improvement": 0.698,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0016.jpg",
+      "original_size_px": [
+        172,
+        172
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 77.85,
+      "sharpness_after": 830.65,
+      "ssim_improvement": 0.7114,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0017.jpg",
+      "original_size_px": [
+        119,
+        119
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 12.69,
+      "sharpness_after": 105.09,
+      "ssim_improvement": 0.5916,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0018.jpg",
+      "original_size_px": [
+        144,
+        141
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 33.29,
+      "sharpness_after": 298.88,
+      "ssim_improvement": 0.6537,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0019.jpg",
+      "original_size_px": [
+        118,
+        118
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 8.07,
+      "sharpness_after": 76.39,
+      "ssim_improvement": 0.612,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0020.jpg",
+      "original_size_px": [
+        118,
+        119
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 7.16,
+      "sharpness_after": 73.9,
+      "ssim_improvement": 0.6034,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0021.jpg",
+      "original_size_px": [
+        119,
+        118
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 11.49,
+      "sharpness_after": 109.83,
+      "ssim_improvement": 0.665,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0022.jpg",
+      "original_size_px": [
+        82,
+        82
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 3.85,
+      "sharpness_after": 26.74,
+      "ssim_improvement": 0.6884,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0023.jpg",
+      "original_size_px": [
+        144,
+        141
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 33.76,
+      "sharpness_after": 238.22,
+      "ssim_improvement": 0.6873,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0024.jpg",
+      "original_size_px": [
+        99,
+        98
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 6.0,
+      "sharpness_after": 39.63,
+      "ssim_improvement": 0.7176,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "Anamika"
+    },
+    {
+      "filename": "face_0025.jpg",
+      "original_size_px": [
+        82,
+        82
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 2.87,
+      "sharpness_after": 18.57,
+      "ssim_improvement": 0.6949,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_0026.jpg",
+      "original_size_px": [
+        98,
+        98
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 6.36,
+      "sharpness_after": 38.22,
+      "ssim_improvement": 0.6822,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0027.jpg",
+      "original_size_px": [
+        82,
+        82
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 3.4,
+      "sharpness_after": 28.16,
+      "ssim_improvement": 0.6727,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_0028.jpg",
+      "original_size_px": [
+        98,
+        98
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 4.42,
+      "sharpness_after": 34.64,
+      "ssim_improvement": 0.6831,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0029.jpg",
+      "original_size_px": [
+        119,
+        118
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 16.51,
+      "sharpness_after": 115.8,
+      "ssim_improvement": 0.648,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "Anamika"
+    },
+    {
+      "filename": "face_0030.jpg",
+      "original_size_px": [
+        119,
+        118
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 10.25,
+      "sharpness_after": 89.0,
+      "ssim_improvement": 0.6444,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0031.jpg",
+      "original_size_px": [
+        119,
+        119
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 12.64,
+      "sharpness_after": 105.32,
+      "ssim_improvement": 0.5984,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0032.jpg",
+      "original_size_px": [
+        172,
+        172
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 74.5,
+      "sharpness_after": 810.61,
+      "ssim_improvement": 0.6967,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0033.jpg",
+      "original_size_px": [
+        99,
+        98
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 6.27,
+      "sharpness_after": 42.42,
+      "ssim_improvement": 0.73,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "Harshita"
+    },
+    {
+      "filename": "face_0034.jpg",
+      "original_size_px": [
+        82,
+        82
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 3.05,
+      "sharpness_after": 21.28,
+      "ssim_improvement": 0.6795,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0035.jpg",
+      "original_size_px": [
+        119,
+        118
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 12.33,
+      "sharpness_after": 118.59,
+      "ssim_improvement": 0.659,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0036.jpg",
+      "original_size_px": [
+        82,
+        82
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 4.29,
+      "sharpness_after": 30.72,
+      "ssim_improvement": 0.6966,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "Harshita"
+    },
+    {
+      "filename": "face_0037.jpg",
+      "original_size_px": [
+        118,
+        118
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 10.32,
+      "sharpness_after": 104.8,
+      "ssim_improvement": 0.6014,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Jahanvi"
+    },
+    {
+      "filename": "face_0038.jpg",
+      "original_size_px": [
+        144,
+        141
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 35.46,
+      "sharpness_after": 313.5,
+      "ssim_improvement": 0.6545,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0039.jpg",
+      "original_size_px": [
+        118,
+        119
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 6.81,
+      "sharpness_after": 69.56,
+      "ssim_improvement": 0.6022,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0040.jpg",
+      "original_size_px": [
+        98,
+        98
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 6.84,
+      "sharpness_after": 50.94,
+      "ssim_improvement": 0.6754,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0041.jpg",
+      "original_size_px": [
+        98,
+        98
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 3.74,
+      "sharpness_after": 28.08,
+      "ssim_improvement": 0.6153,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0042.jpg",
+      "original_size_px": [
+        82,
+        82
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 3.38,
+      "sharpness_after": 25.76,
+      "ssim_improvement": 0.6678,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_0043.jpg",
+      "original_size_px": [
+        98,
+        98
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 4.53,
+      "sharpness_after": 35.62,
+      "ssim_improvement": 0.7029,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0044.jpg",
+      "original_size_px": [
+        119,
+        119
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 7.18,
+      "sharpness_after": 66.22,
+      "ssim_improvement": 0.6398,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "Anamika"
+    },
+    {
+      "filename": "face_0045.jpg",
+      "original_size_px": [
+        98,
+        98
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 9.9,
+      "sharpness_after": 69.14,
+      "ssim_improvement": 0.6434,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0046.jpg",
+      "original_size_px": [
+        144,
+        141
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 35.08,
+      "sharpness_after": 258.34,
+      "ssim_improvement": 0.675,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0047.jpg",
+      "original_size_px": [
+        82,
+        82
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 4.66,
+      "sharpness_after": 30.8,
+      "ssim_improvement": 0.6228,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_0048.jpg",
+      "original_size_px": [
+        141,
+        144
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 24.73,
+      "sharpness_after": 252.06,
+      "ssim_improvement": 0.6079,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0049.jpg",
+      "original_size_px": [
+        56,
+        56
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 2.52,
+      "sharpness_after": 92.5,
+      "ssim_improvement": 0.5272,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_0050.jpg",
+      "original_size_px": [
+        119,
+        119
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 10.37,
+      "sharpness_after": 91.01,
+      "ssim_improvement": 0.586,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0051.jpg",
+      "original_size_px": [
+        119,
+        119
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 12.7,
+      "sharpness_after": 102.13,
+      "ssim_improvement": 0.6011,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0052.jpg",
+      "original_size_px": [
+        172,
+        172
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 107.83,
+      "sharpness_after": 107.83,
+      "ssim_improvement": 1.0,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0053.jpg",
+      "original_size_px": [
+        119,
+        118
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 6.3,
+      "sharpness_after": 66.1,
+      "ssim_improvement": 0.6261,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Anamika"
+    },
+    {
+      "filename": "face_0054.jpg",
+      "original_size_px": [
+        119,
+        118
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 12.11,
+      "sharpness_after": 118.69,
+      "ssim_improvement": 0.6552,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0055.jpg",
+      "original_size_px": [
+        171,
+        172
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 66.16,
+      "sharpness_after": 585.81,
+      "ssim_improvement": 0.6186,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0056.jpg",
+      "original_size_px": [
+        82,
+        82
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 4.2,
+      "sharpness_after": 30.01,
+      "ssim_improvement": 0.6838,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "Harshita"
+    },
+    {
+      "filename": "face_0057.jpg",
+      "original_size_px": [
+        144,
+        141
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 31.87,
+      "sharpness_after": 237.16,
+      "ssim_improvement": 0.6778,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0058.jpg",
+      "original_size_px": [
+        99,
+        98
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 5.86,
+      "sharpness_after": 37.41,
+      "ssim_improvement": 0.736,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "Harshita"
+    },
+    {
+      "filename": "face_0059.jpg",
+      "original_size_px": [
+        118,
+        119
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 6.82,
+      "sharpness_after": 68.0,
+      "ssim_improvement": 0.5978,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0060.jpg",
+      "original_size_px": [
+        81,
+        82
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 5.6,
+      "sharpness_after": 34.14,
+      "ssim_improvement": 0.6373,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0061.jpg",
+      "original_size_px": [
+        98,
+        98
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 6.78,
+      "sharpness_after": 50.6,
+      "ssim_improvement": 0.6696,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0062.jpg",
+      "original_size_px": [
+        98,
+        98
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 4.18,
+      "sharpness_after": 34.5,
+      "ssim_improvement": 0.6962,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "Harshita"
+    },
+    {
+      "filename": "face_0063.jpg",
+      "original_size_px": [
+        98,
+        98
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 3.59,
+      "sharpness_after": 27.28,
+      "ssim_improvement": 0.616,
+      "match_before": true,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_0064.jpg",
+      "original_size_px": [
+        82,
+        82
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 2.63,
+      "sharpness_after": 18.46,
+      "ssim_improvement": 0.6832,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_0065.jpg",
+      "original_size_px": [
+        82,
+        82
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 3.4,
+      "sharpness_after": 27.04,
+      "ssim_improvement": 0.6616,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_0066.jpg",
+      "original_size_px": [
+        82,
+        82
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 2.15,
+      "sharpness_after": 13.55,
+      "ssim_improvement": 0.7457,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_0067.jpg",
+      "original_size_px": [
+        141,
+        144
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 24.77,
+      "sharpness_after": 244.65,
+      "ssim_improvement": 0.6123,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0068.jpg",
+      "original_size_px": [
+        119,
+        119
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 12.76,
+      "sharpness_after": 101.53,
+      "ssim_improvement": 0.6048,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Anamika"
+    },
+    {
+      "filename": "face_0069.jpg",
+      "original_size_px": [
+        119,
+        119
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 5.68,
+      "sharpness_after": 67.66,
+      "ssim_improvement": 0.6231,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Anamika"
+    },
+    {
+      "filename": "face_0070.jpg",
+      "original_size_px": [
+        119,
+        118
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 12.2,
+      "sharpness_after": 115.4,
+      "ssim_improvement": 0.6525,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0071.jpg",
+      "original_size_px": [
+        119,
+        119
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 7.45,
+      "sharpness_after": 75.97,
+      "ssim_improvement": 0.6007,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0072.jpg",
+      "original_size_px": [
+        144,
+        141
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 37.88,
+      "sharpness_after": 302.69,
+      "ssim_improvement": 0.6811,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0073.jpg",
+      "original_size_px": [
+        82,
+        82
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 4.16,
+      "sharpness_after": 30.02,
+      "ssim_improvement": 0.6794,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0074.jpg",
+      "original_size_px": [
+        98,
+        98
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 3.62,
+      "sharpness_after": 28.74,
+      "ssim_improvement": 0.6237,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_0075.jpg",
+      "original_size_px": [
+        119,
+        119
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 6.16,
+      "sharpness_after": 81.84,
+      "ssim_improvement": 0.6401,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "Harshita"
+    },
+    {
+      "filename": "face_0076.jpg",
+      "original_size_px": [
+        118,
+        119
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 6.68,
+      "sharpness_after": 68.76,
+      "ssim_improvement": 0.6011,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0077.jpg",
+      "original_size_px": [
+        81,
+        82
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 5.44,
+      "sharpness_after": 34.95,
+      "ssim_improvement": 0.6445,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0078.jpg",
+      "original_size_px": [
+        98,
+        98
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 6.79,
+      "sharpness_after": 51.04,
+      "ssim_improvement": 0.6711,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0079.jpg",
+      "original_size_px": [
+        82,
+        82
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 3.42,
+      "sharpness_after": 26.55,
+      "ssim_improvement": 0.6581,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_0080.jpg",
+      "original_size_px": [
+        81,
+        82
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 4.7,
+      "sharpness_after": 28.81,
+      "ssim_improvement": 0.6257,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_0081.jpg",
+      "original_size_px": [
+        141,
+        141
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 24.27,
+      "sharpness_after": 218.65,
+      "ssim_improvement": 0.6367,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_0082.jpg",
+      "original_size_px": [
+        82,
+        82
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 2.59,
+      "sharpness_after": 18.39,
+      "ssim_improvement": 0.7192,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "Harshita"
+    },
+    {
+      "filename": "face_0083.jpg",
+      "original_size_px": [
+        118,
+        119
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 10.19,
+      "sharpness_after": 72.84,
+      "ssim_improvement": 0.6031,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0084.jpg",
+      "original_size_px": [
+        119,
+        119
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 12.83,
+      "sharpness_after": 101.44,
+      "ssim_improvement": 0.6048,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Anamika"
+    },
+    {
+      "filename": "face_0085.jpg",
+      "original_size_px": [
+        119,
+        118
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 12.72,
+      "sharpness_after": 114.4,
+      "ssim_improvement": 0.6511,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0086.jpg",
+      "original_size_px": [
+        119,
+        119
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 6.16,
+      "sharpness_after": 77.42,
+      "ssim_improvement": 0.6183,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Anamika"
+    },
+    {
+      "filename": "face_0087.jpg",
+      "original_size_px": [
+        144,
+        141
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 34.32,
+      "sharpness_after": 282.49,
+      "ssim_improvement": 0.6908,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0088.jpg",
+      "original_size_px": [
+        82,
+        82
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 4.14,
+      "sharpness_after": 29.12,
+      "ssim_improvement": 0.6847,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0089.jpg",
+      "original_size_px": [
+        118,
+        119
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 6.75,
+      "sharpness_after": 69.98,
+      "ssim_improvement": 0.6028,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0090.jpg",
+      "original_size_px": [
+        119,
+        119
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 6.9,
+      "sharpness_after": 78.53,
+      "ssim_improvement": 0.6594,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "Harshita"
+    },
+    {
+      "filename": "face_0091.jpg",
+      "original_size_px": [
+        98,
+        98
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 3.77,
+      "sharpness_after": 31.42,
+      "ssim_improvement": 0.6158,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "Anamika"
+    },
+    {
+      "filename": "face_0092.jpg",
+      "original_size_px": [
+        99,
+        99
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 6.06,
+      "sharpness_after": 45.23,
+      "ssim_improvement": 0.6388,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0093.jpg",
+      "original_size_px": [
+        81,
+        82
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 4.88,
+      "sharpness_after": 29.54,
+      "ssim_improvement": 0.6259,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0094.jpg",
+      "original_size_px": [
+        98,
+        98
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 6.73,
+      "sharpness_after": 50.46,
+      "ssim_improvement": 0.6685,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0095.jpg",
+      "original_size_px": [
+        82,
+        82
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 3.4,
+      "sharpness_after": 26.66,
+      "ssim_improvement": 0.6568,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_0096.jpg",
+      "original_size_px": [
+        118,
+        119
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 10.51,
+      "sharpness_after": 75.63,
+      "ssim_improvement": 0.5986,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0097.jpg",
+      "original_size_px": [
+        119,
+        118
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 14.59,
+      "sharpness_after": 109.8,
+      "ssim_improvement": 0.6481,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0098.jpg",
+      "original_size_px": [
+        119,
+        119
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 12.78,
+      "sharpness_after": 107.68,
+      "ssim_improvement": 0.6019,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Anamika"
+    },
+    {
+      "filename": "face_0099.jpg",
+      "original_size_px": [
+        144,
+        141
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 36.85,
+      "sharpness_after": 310.89,
+      "ssim_improvement": 0.6816,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_0100.jpg",
+      "original_size_px": [
+        119,
+        118
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 12.8,
+      "sharpness_after": 115.46,
+      "ssim_improvement": 0.6532,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    }
+  ]
+}
